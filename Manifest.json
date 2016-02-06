@@ -1,14 +1,14 @@
 
 	{
-	  "name": "A browser action with a popup that changes the page color",
-	  "description": "Change the current page color",
+	  "name": "Calorie Clicker",
+	  "description": "The click",
 	  "version": "1.0",
 	  "permissions": [
 	    "tabs", "http://*/*", "https://*/*"
 	  ],
 	  "browser_action": {
-	      "default_title": "Set this page's color.",
+	      "default_title": "Calorie Counter",
 	      "default_popup": "main.html"
 	  },
-  "manifest_version": 1
+  "manifest_version": 2
 	}
