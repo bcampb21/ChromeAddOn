@@ -10,9 +10,13 @@ var clickCounter = 0;
 }*/
 
 function trackClicks(e){
-	$(document).on('click','body *',function()) {
+	document.addEventListener('DOMContentLoaded', function(){
+		/*$(document).on('click','body *',function()) {
+			clickCounter++;
+		}*/
 		clickCounter++;
-	}
+	})
+	
 }
 
 function caloriesBurned() {
