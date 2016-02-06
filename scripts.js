@@ -18,6 +18,10 @@ function trackClicks(e){
 function caloriesBurned() {
 	return clickCounter*.0014;
 } 
+
+function getClicks() {
+	return clickCounter;
+}
  /* var arrayWithElements = newArray();
 function readclicks(e) {
 	var clickedElement=(window.event)
